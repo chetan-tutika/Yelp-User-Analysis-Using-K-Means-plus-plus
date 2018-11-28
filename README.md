@@ -2,6 +2,7 @@
 For faster initialization of the centroids the algorithm selected must approximate the posterior distribution of the dataset with very few passes over the data. Some of the algorithms which give good approximation of the distribution are the random walk Monte Carlo algorithms(Metropolis–Hastings algorithm, Gibbs Sampling, etc). These algorithms make use of the markov chains algorithm for a quick and efficient approximation.<br />
 Hence, implementing an algorithm which makes use of markov chain would give us the best results<br />
 We would like to approximate the probability distribution of our data by constructing a sequence of markov chains and passing through them<br />
+Dataset = 
 <br />
 ## Algorithm:
 1) Initialize an arbitrary centroid which lies on the data at random<br />
